@@ -3,17 +3,23 @@
 <head>
   <title>Portfólio de Projetos de Ciências de Dados</title>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Remova 'user-scalable=no' para permitir o zoom -->
   <link rel="stylesheet" href="assets/css/main.css" />
   <style>
     body {
       background-color: rgb(233, 233, 233);
-      
     }
-	body * {
-      color: grey; /* Definir a cor de todo o texto como branco */
+    
+    body * {
+      color: grey; /* Definir a cor de todo o texto como cinza */
     }
-	
+
+    /* Adicione regras de estilo específicas para telas menores, como celulares e tablets */
+    @media (max-width: 768px) {
+      body {
+        font-size: 16px; /* Tamanho da fonte maior para melhor legibilidade em telas menores */
+      }
+    }
   </style>
 </head>
 <body class="is-preload">
@@ -23,9 +29,25 @@
 		<div id="main">
 		  <div class="inner">
 			<!-- Header -->
-			<header id="header">
-			  <a href="index.html" class="logo"><strong>Portfólio de Projetos</a>
-			</header>
+			
+				</header>
+
+				<header id="header">
+					<a href="index.html" class="logo" ><strong>Portfólio de Projetos</strong></a>
+					
+						<ul class="icons">
+						  <li>
+							<a href="#" class="icon solid fa-envelope" style="font-size: 20px; margin-left: 10px;"></a>
+						  </li>
+						  <li>
+							<a href="https://api.whatsapp.com/send?phone=011983772500" class="fab fa-whatsapp" style="font-size: 20px; margin-left: 10px;"></a>
+						  </li>
+						  <li>
+							<a href="https://www.linkedin.com/in/marilenesousa/" class="fab fa-linkedin" style="font-size: 20px; margin-left: 10px;"></a>
+						
+					  </li>
+					</ul>
+				  </header>
 							<!-- Banner -->
 								<section id="banner">
 									
